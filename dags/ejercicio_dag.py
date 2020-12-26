@@ -17,32 +17,35 @@ default_args = {
 }
 
 
-def save_data_mssql(query, **kwargs):
+def load_to_db(query):
     odbc_hook = OdbcHook(odbc_conn_id='con_ej_pi_mssql',
                          database='Testing_ETL', driver='{ODBC Driver 17 for SQL Server}')
     odbc_hook.run(query)
 
 
-def load_csv(**kwargs):
-
+def load_csv():
     try:
         df = pd.read_csv(
             "https://gen2cluster.blob.core.windows.net/challenge/csv/nuevas_filas.csv?sv=2019-12-12&ss=b&srt=sco&sp=rx&se=2021-01-31T23:41:30Z&st=2020-12-21T15:41:30Z&spr=https&sig=HGmabI8sYoiQ1%2FXWb7alGqtL0s4ewWXkeAklUhmetqU%3D"
         )
     except Exception as e:
         pass
+        #logger.save('ERROR', f'TRACE: {str(e)}')
+    return df
+
+def transform(df, col_name):
+    df[col_name] = dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]
     return df
 
 
 def etl_pipe(**kwargs):
     df = load_csv()
-    df['FECHA_COPIA'] = dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]
+    df = transform(df, 'FECHA_COPIA')
 
     cols = ",".join([str(i) for i in df.columns.tolist()])
 
     for i, row in df.iterrows():
-        save_data_mssql(
-            f"INSERT INTO [dbo].[Unificado] ({cols}) VALUES {tuple(row)}")
+        load_to_db(f"INSERT INTO [dbo].[Unificado] ({cols}) VALUES {tuple(row)}")
 
 
 with DAG('v5',
