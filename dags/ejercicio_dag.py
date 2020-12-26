@@ -9,8 +9,7 @@ import datetime as dt
 import os
 import logging
 
-logging.basicConfig(filename='ejercicio.log',
-                    format='%(levelname)s - %(asctime)s: %(message)s',
+logging.basicConfig(format='%(levelname)s - %(asctime)s: %(message)s',
                     encoding='utf-8', 
                     level=logging.INFO)
 
@@ -30,7 +29,7 @@ def load_to_db(query, i):
         odbc_hook.run(query)
         return i + 1
     except Exception as e:
-        logging.error(f'Ejercucion de Query: {query}')
+        logging.error(f'Ejercucion de Query: {query} - {e}')
     return i
 
 
