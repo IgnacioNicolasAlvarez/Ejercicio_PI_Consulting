@@ -10,7 +10,7 @@ import os
 import logging
 
 logging.basicConfig(format='%(levelname)s - %(asctime)s: %(message)s',
-                    encoding='utf-8', 
+                    encoding='utf-8',
                     level=logging.INFO)
 
 
@@ -25,7 +25,8 @@ default_args = {
 def load_to_db(query, i):
     try:
         odbc_hook = OdbcHook(odbc_conn_id='con_ej_pi_mssql',
-                             database='Testing_ETL', driver='{ODBC Driver 17 for SQL Server}')
+                             database='Testing_ETL',
+                             driver='{ODBC Driver 17 for SQL Server}')
         odbc_hook.run(query)
         return i + 1
     except Exception as e:
@@ -48,7 +49,7 @@ def transform(df, col_name):
     return df
 
 
-def etl_pipe(**kwargs):
+def insert_registros(**kwargs):
     df = load_csv()
     df = transform(df, 'FECHA_COPIA')
 
@@ -61,10 +62,24 @@ def etl_pipe(**kwargs):
     logging.info(f'Cant Filas Registradas: {cant}')
 
 
-with DAG('v5',
+def del_duplicados(**kwargs):
+    try:
+        query = 'EXEC [dbo].[Remover_Duplicados] @NOMBRE_TABLA = "Unificado"'
+        odbc_hook = OdbcHook(odbc_conn_id='con_ej_pi_mssql',
+                             database='Testing_ETL',
+                             driver='{ODBC Driver 17 for SQL Server}')
+        odbc_hook.run(query)
+    except Exception as e:
+        logging.error(f'Ejercucion de Query: {query} - {e}')
+
+
+with DAG('append_registros_csv',
          default_args=default_args,
          schedule_interval='0 5 * * 1',
          tags=['PI Consulting']
          ) as dag:
 
-    etl_pipe = PythonOperator(task_id='etl_pipe', python_callable=etl_pipe)
+    insert_registros = PythonOperator(
+        task_id='insert_registros', python_callable=insert_registros)
+    del_duplicados = PythonOperator(
+        task_id='del_duplicados', python_callable=del_duplicados)

@@ -1,0 +1,5 @@
+-- CODIGO A CORRER PARA SETEAR EL ENV
+
+export AIRFLOW_HOME="/home/ina/ejercicio"
+export AIRFLOW_CONFIG="/home/ina/ejercicio/airflow.cfg"
+	

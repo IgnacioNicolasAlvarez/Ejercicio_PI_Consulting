@@ -1,0 +1,25 @@
+[2020-12-29 21:45:54,977] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: append_registros_csv.del_duplicados 2020-12-30T00:45:39.623126+00:00 [queued]>
+[2020-12-29 21:45:54,983] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: append_registros_csv.del_duplicados 2020-12-30T00:45:39.623126+00:00 [queued]>
+[2020-12-29 21:45:54,983] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-29 21:45:54,983] {taskinstance.py:1018} INFO - Starting attempt 1 of 2
+[2020-12-29 21:45:54,983] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-29 21:45:55,001] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): del_duplicados> on 2020-12-30T00:45:39.623126+00:00
+[2020-12-29 21:45:55,021] {standard_task_runner.py:51} INFO - Started process 4519 to run task
+[2020-12-29 21:45:55,033] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'append_registros_csv', 'del_duplicados', '2020-12-30T00:45:39.623126+00:00', '--job-id', '887', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ejercicio_dag.py', '--cfg-path', '/tmp/tmp5hhi2iav']
+[2020-12-29 21:45:55,035] {standard_task_runner.py:76} INFO - Job 887: Subtask del_duplicados
+[2020-12-29 21:45:55,098] {logging_mixin.py:103} INFO - Running <TaskInstance: append_registros_csv.del_duplicados 2020-12-30T00:45:39.623126+00:00 [running]> on host ina-pc.localdomain
+[2020-12-29 21:45:55,143] {taskinstance.py:1230} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Ignacio
+AIRFLOW_CTX_DAG_ID=append_registros_csv
+AIRFLOW_CTX_TASK_ID=del_duplicados
+AIRFLOW_CTX_EXECUTION_DATE=2020-12-30T00:45:39.623126+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2020-12-30T00:45:39.623126+00:00
+[2020-12-29 21:45:55,227] {base.py:65} INFO - Using connection to: id: con_ej_pi_mssql. Host: INA-PC, Port: 1433, Schema: Testing_ETL, Login: sa, Password: XXXXXXXX, extra: XXXXXXXX
+[2020-12-29 21:45:55,288] {dbapi.py:180} INFO - Running statement: EXEC [dbo].[Remover_Duplicados], parameters: None
+[2020-12-29 21:45:55,351] {ejercicio_dag.py:73} ERROR - Ejercucion de Query: EXEC [dbo].[Remover_Duplicados] - ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'Remover_Duplicados' expects parameter '@NOMBRE_TABLA', which was not supplied. (201) (SQLExecDirectW)")
+[2020-12-29 21:45:55,352] {python.py:118} INFO - Done. Returned value was: None
+[2020-12-29 21:45:55,357] {taskinstance.py:1135} INFO - Marking task as SUCCESS. dag_id=append_registros_csv, task_id=del_duplicados, execution_date=20201230T004539, start_date=20201230T004554, end_date=20201230T004555
+[2020-12-29 21:45:55,385] {taskinstance.py:1195} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2020-12-29 21:45:55,405] {local_task_job.py:118} INFO - Task exited with return code 0

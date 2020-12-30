@@ -1,0 +1,698 @@
+[2020-12-26 18:17:17,504] {dag_processing.py:590} INFO - Processing files using up to 1 processes at a time 
+[2020-12-26 18:17:17,504] {dag_processing.py:591} INFO - Process each file at most once every 0 seconds
+[2020-12-26 18:17:17,504] {dag_processing.py:592} INFO - Checking for new files in /home/ina/ejercicio/dags every 300 seconds
+[2020-12-26 18:17:17,504] {dag_processing.py:726} INFO - Searching for files in /home/ina/ejercicio/dags
+[2020-12-26 18:17:17,517] {dag_processing.py:729} INFO - There are 1 files in /home/ina/ejercicio/dags
+[2020-12-26 18:17:17,549] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:17:17,549] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:12:17.549573+00:00
+[2020-12-26 18:17:18,279] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.72s           2020-12-26T21:17:18
+================================================================================
+[2020-12-26 18:17:27,674] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:17:27,675] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:12:27.675463+00:00
+[2020-12-26 18:17:38,284] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:17:38,285] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:12:38.285566+00:00
+[2020-12-26 18:17:49,301] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:17:49,302] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:12:49.302080+00:00
+[2020-12-26 18:17:50,243] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.92s           2020-12-26T21:17:50
+================================================================================
+[2020-12-26 18:18:01,185] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:18:01,187] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:13:01.187481+00:00
+[2020-12-26 18:18:12,906] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:18:12,907] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:13:12.907046+00:00
+[2020-12-26 18:18:21,469] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.92s           2020-12-26T21:18:21
+================================================================================
+[2020-12-26 18:18:23,487] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:18:23,488] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:13:23.488294+00:00
+[2020-12-26 18:18:34,142] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:18:34,143] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:13:34.143553+00:00
+[2020-12-26 18:18:44,278] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:18:44,280] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:13:44.280587+00:00
+[2020-12-26 18:18:52,127] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.64s           2020-12-26T21:18:52
+================================================================================
+[2020-12-26 18:18:54,433] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:18:54,436] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:13:54.436015+00:00
+[2020-12-26 18:19:04,597] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:19:04,597] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:14:04.597828+00:00
+[2020-12-26 18:19:15,278] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:19:15,279] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:14:15.279538+00:00
+[2020-12-26 18:19:23,134] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.63s           2020-12-26T21:19:23
+================================================================================
+[2020-12-26 18:19:25,453] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:19:25,455] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:14:25.454959+00:00
+[2020-12-26 18:19:35,626] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:19:35,627] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:14:35.627369+00:00
+[2020-12-26 18:19:45,700] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:19:45,702] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:14:45.702216+00:00
+[2020-12-26 18:19:53,149] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-26T21:19:53
+================================================================================
+[2020-12-26 18:19:56,533] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:19:56,534] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:14:56.534898+00:00
+[2020-12-26 18:20:06,720] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:20:06,721] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:15:06.721431+00:00
+[2020-12-26 18:20:16,864] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:20:16,865] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:15:16.865295+00:00
+[2020-12-26 18:20:23,613] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-26T21:20:23
+================================================================================
+[2020-12-26 18:20:26,984] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:20:26,985] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:15:26.985037+00:00
+[2020-12-26 18:20:37,647] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:20:37,648] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:15:37.648699+00:00
+[2020-12-26 18:20:48,265] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:20:48,265] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:15:48.265752+00:00
+[2020-12-26 18:20:53,960] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.63s           2020-12-26T21:20:53
+================================================================================
+[2020-12-26 18:20:58,412] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:20:58,414] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:15:58.414408+00:00
+[2020-12-26 18:21:11,556] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:21:11,556] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:16:11.556768+00:00
+[2020-12-26 18:21:22,005] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:21:22,007] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:16:22.007250+00:00
+[2020-12-26 18:21:24,755] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.63s           2020-12-26T21:21:24
+================================================================================
+[2020-12-26 18:21:32,162] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:21:32,164] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:16:32.164002+00:00
+[2020-12-26 18:21:42,329] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:21:42,331] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:16:42.330896+00:00
+[2020-12-26 18:21:52,499] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:21:52,501] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:16:52.501664+00:00
+[2020-12-26 18:21:55,265] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-26T21:21:55
+================================================================================
+[2020-12-26 18:22:02,582] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:22:02,583] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:17:02.583743+00:00
+[2020-12-26 18:22:13,386] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:22:13,388] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:17:13.388462+00:00
+[2020-12-26 18:22:18,471] {dag_processing.py:726} INFO - Searching for files in /home/ina/ejercicio/dags
+[2020-12-26 18:22:18,480] {dag_processing.py:729} INFO - There are 1 files in /home/ina/ejercicio/dags
+[2020-12-26 18:22:23,564] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:22:23,566] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:17:23.566660+00:00
+[2020-12-26 18:22:25,301] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.64s           2020-12-26T21:22:25
+================================================================================
+[2020-12-26 18:22:33,720] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:22:33,721] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:17:33.721802+00:00
+[2020-12-26 18:22:43,869] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:22:43,870] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:17:43.870480+00:00
+[2020-12-26 18:22:54,503] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:22:54,505] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:17:54.505486+00:00
+[2020-12-26 18:22:55,361] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.82s           2020-12-26T21:22:55
+================================================================================
+[2020-12-26 18:23:04,665] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:23:04,667] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:18:04.667252+00:00
+[2020-12-26 18:23:14,808] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:23:14,810] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:18:14.810630+00:00
+[2020-12-26 18:23:24,972] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:23:24,973] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:18:24.972963+00:00
+[2020-12-26 18:23:25,612] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-26T21:23:25
+================================================================================
+[2020-12-26 18:23:34,992] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-26 18:23:34,993] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-26 21:18:34.993081+00:00
+[2020-12-26 18:23:37,099] {dag_processing.py:571} INFO - Exiting gracefully upon receiving signal 15
+[2020-12-29 21:45:03,673] {dag_processing.py:590} INFO - Processing files using up to 1 processes at a time 
+[2020-12-29 21:45:03,674] {dag_processing.py:591} INFO - Process each file at most once every 0 seconds
+[2020-12-29 21:45:03,674] {dag_processing.py:592} INFO - Checking for new files in /home/ina/ejercicio/dags every 300 seconds
+[2020-12-29 21:45:03,675] {dag_processing.py:726} INFO - Searching for files in /home/ina/ejercicio/dags
+[2020-12-29 21:45:03,685] {dag_processing.py:729} INFO - There are 1 files in /home/ina/ejercicio/dags
+[2020-12-29 21:45:03,714] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:45:03,714] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:40:03.714197+00:00
+[2020-12-29 21:45:04,339] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.61s           2020-12-30T00:45:04
+================================================================================
+[2020-12-29 21:45:14,331] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:45:14,332] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:40:14.332439+00:00
+[2020-12-29 21:45:24,389] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:45:24,391] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:40:24.391827+00:00
+[2020-12-29 21:45:34,548] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:45:34,551] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:40:34.551238+00:00
+[2020-12-29 21:45:35,319] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.72s           2020-12-30T00:45:35
+================================================================================
+[2020-12-29 21:45:55,768] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:45:55,769] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:40:55.769303+00:00
+[2020-12-29 21:46:06,153] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.63s           2020-12-30T00:46:06
+================================================================================
+[2020-12-29 21:46:06,355] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:46:06,356] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:41:06.356585+00:00
+[2020-12-29 21:46:17,040] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:46:17,042] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:41:17.042379+00:00
+[2020-12-29 21:46:27,170] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:46:27,172] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:41:27.172684+00:00
+[2020-12-29 21:46:37,161] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.72s           2020-12-30T00:46:37
+================================================================================
+[2020-12-29 21:46:37,324] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:46:37,325] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:41:37.325212+00:00
+[2020-12-29 21:46:47,480] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:46:47,481] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:41:47.481214+00:00
+[2020-12-29 21:46:58,209] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:46:58,210] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:41:58.210723+00:00
+[2020-12-29 21:47:08,077] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-30T00:47:08
+================================================================================
+[2020-12-29 21:47:08,344] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:47:08,344] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:42:08.344838+00:00
+[2020-12-29 21:47:18,535] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:47:18,538] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:42:18.538192+00:00
+[2020-12-29 21:47:28,600] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:47:28,601] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:42:28.601814+00:00
+[2020-12-29 21:47:38,412] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.85s           2020-12-30T00:47:38
+================================================================================
+[2020-12-29 21:47:39,488] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:47:39,490] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:42:39.490103+00:00
+[2020-12-29 21:47:49,662] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:47:49,664] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:42:49.664368+00:00
+[2020-12-29 21:47:59,779] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:47:59,780] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:42:59.780822+00:00
+[2020-12-29 21:48:09,315] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.72s           2020-12-30T00:48:09
+================================================================================
+[2020-12-29 21:48:10,530] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:48:10,532] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:43:10.532876+00:00
+[2020-12-29 21:48:21,095] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:48:21,097] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:43:21.097870+00:00
+[2020-12-29 21:48:31,251] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:48:31,253] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:43:31.253342+00:00
+[2020-12-29 21:48:40,204] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.72s           2020-12-30T00:48:40
+================================================================================
+[2020-12-29 21:48:41,413] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:48:41,415] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:43:41.415338+00:00
+[2020-12-29 21:48:51,550] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:48:51,552] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:43:51.552721+00:00
+[2020-12-29 21:49:02,218] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:49:02,220] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:44:02.219999+00:00
+[2020-12-29 21:49:11,048] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.63s           2020-12-30T00:49:11
+================================================================================
+[2020-12-29 21:49:12,348] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:49:12,349] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:44:12.349029+00:00
+[2020-12-29 21:49:22,837] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:49:22,839] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:44:22.839289+00:00
+[2020-12-29 21:49:33,422] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:49:33,424] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:44:33.424690+00:00
+[2020-12-29 21:49:41,242] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.63s           2020-12-30T00:49:41
+================================================================================
+[2020-12-29 21:49:43,576] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:49:43,578] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:44:43.577989+00:00
+[2020-12-29 21:49:53,737] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:49:53,740] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:44:53.740267+00:00
+[2020-12-29 21:50:04,577] {dag_processing.py:726} INFO - Searching for files in /home/ina/ejercicio/dags
+[2020-12-29 21:50:04,581] {dag_processing.py:729} INFO - There are 1 files in /home/ina/ejercicio/dags
+[2020-12-29 21:50:04,599] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:50:04,599] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:45:04.599437+00:00
+[2020-12-29 21:50:11,310] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-30T00:50:11
+================================================================================
+[2020-12-29 21:50:14,689] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:50:14,692] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:45:14.691949+00:00
+[2020-12-29 21:50:25,064] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:50:25,066] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:45:25.066517+00:00
+[2020-12-29 21:50:35,680] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:50:35,681] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:45:35.681462+00:00
+[2020-12-29 21:50:41,510] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.72s           2020-12-30T00:50:41
+================================================================================
+[2020-12-29 21:50:45,854] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:50:45,857] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:45:45.856952+00:00
+[2020-12-29 21:50:56,027] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:50:56,029] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:45:56.029732+00:00
+[2020-12-29 21:51:06,182] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:51:06,183] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:46:06.182949+00:00
+[2020-12-29 21:51:12,118] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.72s           2020-12-30T00:51:12
+================================================================================
+[2020-12-29 21:51:16,208] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:51:16,214] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:46:16.214507+00:00
+[2020-12-29 21:51:27,339] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:51:27,340] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:46:27.340198+00:00
+[2020-12-29 21:51:37,391] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:51:37,393] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:46:37.393014+00:00
+[2020-12-29 21:51:43,243] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.82s           2020-12-30T00:51:43
+================================================================================
+[2020-12-29 21:51:48,393] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:51:48,395] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:46:48.395042+00:00
+[2020-12-29 21:51:58,593] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:51:58,594] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:46:58.594370+00:00
+[2020-12-29 21:52:09,255] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:52:09,258] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:47:09.258039+00:00
+[2020-12-29 21:52:14,189] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.72s           2020-12-30T00:52:14
+================================================================================
+[2020-12-29 21:52:19,424] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:52:19,425] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:47:19.425621+00:00
+[2020-12-29 21:52:30,150] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:52:30,151] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:47:30.151383+00:00
+[2020-12-29 21:52:40,329] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:52:40,330] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:47:40.330196+00:00
+[2020-12-29 21:52:45,099] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-30T00:52:45
+================================================================================
+[2020-12-29 21:52:50,477] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:52:50,478] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:47:50.478908+00:00
+[2020-12-29 21:53:00,571] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:53:00,573] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:48:00.573726+00:00
+[2020-12-29 21:53:11,385] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:53:11,386] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:48:11.386630+00:00
+[2020-12-29 21:53:15,135] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-30T00:53:15
+================================================================================
+[2020-12-29 21:53:21,882] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:53:21,882] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:48:21.882925+00:00
+[2020-12-29 21:53:32,458] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:53:32,459] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:48:32.459850+00:00
+[2020-12-29 21:53:42,592] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:53:42,594] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:48:42.594283+00:00
+[2020-12-29 21:53:45,313] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-30T00:53:45
+================================================================================
+[2020-12-29 21:53:53,207] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:53:53,208] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:48:53.208334+00:00
+[2020-12-29 21:54:03,463] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:54:03,465] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:49:03.465688+00:00
+[2020-12-29 21:54:13,638] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:54:13,639] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:49:13.639229+00:00
+[2020-12-29 21:54:15,460] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.74s           2020-12-30T00:54:15
+================================================================================
+[2020-12-29 21:54:23,747] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:54:23,749] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:49:23.749386+00:00
+[2020-12-29 21:54:34,388] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:54:34,390] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:49:34.390085+00:00
+[2020-12-29 21:54:44,536] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:54:44,536] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:49:44.536948+00:00
+[2020-12-29 21:54:46,567] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.96s           2020-12-30T00:54:46
+================================================================================
+[2020-12-29 21:54:55,173] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:54:55,175] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:49:55.175514+00:00
+[2020-12-29 21:55:04,789] {dag_processing.py:726} INFO - Searching for files in /home/ina/ejercicio/dags
+[2020-12-29 21:55:04,794] {dag_processing.py:729} INFO - There are 1 files in /home/ina/ejercicio/dags
+[2020-12-29 21:55:05,336] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:55:05,337] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:50:05.337167+00:00
+[2020-12-29 21:55:15,501] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:55:15,502] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:50:15.502548+00:00
+[2020-12-29 21:55:17,291] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.72s           2020-12-30T00:55:17
+================================================================================
+[2020-12-29 21:55:25,632] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:55:25,633] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:50:25.633296+00:00
+[2020-12-29 21:55:36,259] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:55:36,260] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:50:36.260343+00:00
+[2020-12-29 21:55:46,452] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:55:46,453] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:50:46.453627+00:00
+[2020-12-29 21:55:47,295] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.82s           2020-12-30T00:55:47
+================================================================================
+[2020-12-29 21:55:56,572] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:55:56,574] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:50:56.574014+00:00
+[2020-12-29 21:56:06,737] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:56:06,740] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:51:06.739907+00:00
+[2020-12-29 21:56:16,884] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:56:16,885] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:51:16.885554+00:00
+[2020-12-29 21:56:17,619] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.72s           2020-12-30T00:56:17
+================================================================================
+[2020-12-29 21:56:27,501] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:56:27,501] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:51:27.501777+00:00
+[2020-12-29 21:56:38,024] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:56:38,025] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:51:38.025266+00:00
+[2020-12-29 21:56:48,129] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.83s           2020-12-30T00:56:48
+================================================================================
+[2020-12-29 21:56:48,166] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:56:48,167] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:51:48.167258+00:00
+[2020-12-29 21:56:59,003] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:56:59,006] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:51:59.005937+00:00
+[2020-12-29 21:57:09,729] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:57:09,730] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:52:09.730348+00:00
+[2020-12-29 21:57:18,600] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-30T00:57:18
+================================================================================
+[2020-12-29 21:57:20,350] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:57:20,351] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:52:20.351012+00:00
+[2020-12-29 21:57:21,777] {dag_processing.py:571} INFO - Exiting gracefully upon receiving signal 15
+[2020-12-29 21:57:24,103] {dag_processing.py:590} INFO - Processing files using up to 1 processes at a time 
+[2020-12-29 21:57:24,104] {dag_processing.py:591} INFO - Process each file at most once every 0 seconds
+[2020-12-29 21:57:24,104] {dag_processing.py:592} INFO - Checking for new files in /home/ina/ejercicio/dags every 300 seconds
+[2020-12-29 21:57:24,104] {dag_processing.py:726} INFO - Searching for files in /home/ina/ejercicio/dags
+[2020-12-29 21:57:24,107] {dag_processing.py:729} INFO - There are 1 files in /home/ina/ejercicio/dags
+[2020-12-29 21:57:24,133] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:57:24,134] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:52:24.134184+00:00
+[2020-12-29 21:57:24,767] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-30T00:57:24
+================================================================================
+[2020-12-29 21:57:34,305] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:57:34,308] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:52:34.308630+00:00
+[2020-12-29 21:57:56,129] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:57:56,130] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:52:56.129983+00:00
+[2020-12-29 21:57:56,761] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-30T00:57:56
+================================================================================
+[2020-12-29 21:58:06,778] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:58:06,780] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:53:06.780437+00:00
+[2020-12-29 21:58:17,336] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:58:17,337] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:53:17.337562+00:00
+[2020-12-29 21:58:27,271] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.63s           2020-12-30T00:58:27
+================================================================================
+[2020-12-29 21:58:27,472] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:58:27,472] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:53:27.472721+00:00
+[2020-12-29 21:58:37,620] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:58:37,622] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:53:37.622751+00:00
+[2020-12-29 21:58:47,797] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:58:47,799] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:53:47.799694+00:00
+[2020-12-29 21:58:57,411] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.64s           2020-12-30T00:58:57
+================================================================================
+[2020-12-29 21:58:57,836] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:58:57,836] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:53:57.836706+00:00
+[2020-12-29 21:59:08,612] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:59:08,614] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:54:08.614138+00:00
+[2020-12-29 21:59:19,238] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:59:19,238] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:54:19.238843+00:00
+[2020-12-29 21:59:28,108] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-30T00:59:28
+================================================================================
+[2020-12-29 21:59:29,810] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:59:29,810] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:54:29.810692+00:00
+[2020-12-29 21:59:39,962] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:59:39,964] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:54:39.964226+00:00
+[2020-12-29 21:59:50,122] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 21:59:50,122] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:54:50.122776+00:00
+[2020-12-29 21:59:58,978] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.73s           2020-12-30T00:59:58
+================================================================================
+[2020-12-29 22:00:00,258] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:00:00,260] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:55:00.260385+00:00
+[2020-12-29 22:00:10,426] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:00:10,426] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:55:10.426866+00:00
+[2020-12-29 22:00:20,495] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:00:20,495] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:55:20.495584+00:00
+[2020-12-29 22:00:28,991] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-30T01:00:28
+================================================================================
+[2020-12-29 22:00:31,512] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:00:31,513] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:55:31.513842+00:00
+[2020-12-29 22:00:41,659] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:00:41,661] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:55:41.661295+00:00
+[2020-12-29 22:00:52,315] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:00:52,318] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:55:52.316035+00:00
+[2020-12-29 22:00:59,074] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-30T01:00:59
+================================================================================
+[2020-12-29 22:01:02,857] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:01:02,857] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:56:02.857635+00:00
+[2020-12-29 22:01:13,006] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:01:13,007] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:56:13.007808+00:00
+[2020-12-29 22:01:23,151] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:01:23,152] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:56:23.152770+00:00
+[2020-12-29 22:01:29,787] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.64s           2020-12-30T01:01:29
+================================================================================
+[2020-12-29 22:01:33,306] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:01:33,309] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:56:33.308912+00:00
+[2020-12-29 22:01:43,470] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:01:43,472] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:56:43.472485+00:00
+[2020-12-29 22:01:54,159] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:01:54,159] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:56:54.159867+00:00
+[2020-12-29 22:01:59,843] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.62s           2020-12-30T01:01:59
+================================================================================
+[2020-12-29 22:02:04,688] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:02:04,689] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:57:04.689089+00:00
+[2020-12-29 22:02:14,818] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:02:14,819] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:57:14.819168+00:00
+[2020-12-29 22:02:24,158] {dag_processing.py:726} INFO - Searching for files in /home/ina/ejercicio/dags
+[2020-12-29 22:02:24,161] {dag_processing.py:729} INFO - There are 1 files in /home/ina/ejercicio/dags
+[2020-12-29 22:02:25,222] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:02:25,222] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:57:25.222787+00:00
+[2020-12-29 22:02:29,875] {dag_processing.py:833} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ina/ejercicio/dags/ejercicio_dag.py                           1           0  0.64s           2020-12-30T01:02:29
+================================================================================
+[2020-12-29 22:02:35,362] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:02:35,364] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:57:35.364702+00:00
+[2020-12-29 22:02:45,529] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:02:45,532] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:57:45.531712+00:00
+[2020-12-29 22:02:56,234] {dag_processing.py:1062} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-12-29 22:02:56,237] {dag_processing.py:1066} INFO - Failing jobs without heartbeat after 2020-12-30 00:57:56.237000+00:00
+[2020-12-29 22:02:59,710] {dag_processing.py:571} INFO - Exiting gracefully upon receiving signal 15
